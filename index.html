@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pagina Web</title>
+</head>
+<body>
+    <header class="header">
+        <input type="checkbox" id="open-menu" class="header__checkbox">
+        <label for="open-menu" class="header__open-nav-button" role="button">=</label>
+        <div class="header__logo-container">
+            <img class="header__logo" src="logo-removebg-preview.png" alt="Logo">
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="#profile">About</a></li>
+                <li class="header__nav-item"><a href="#portfolio">Portfolio</a></li>
+                <li class="header__nav-item"><a href="#form">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="profile" id="profile">
+            <div class="profile__wrapper">
+                <div class="profile__img-container">
+                    <img src="image.jpg" alt="perfil" class="profile_img">
+                </div>
+                <div class="profile__data-container">
+                    <div class="profile__data">
+                        <div class="profile__description">
+                            <h1>¿Quienes somos?</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum omnis atque eos odio dolor officia soluta sint mollitia dolorum quibusdam debitis nemo vero, animi, incidunt reiciendis natus suscipit nihil? Facilis?
+                            Reiciendis aut vero iusto accusantium consequatur amet ad, dignissimos sit corrupti! Excepturi laborum doloribus eveniet, ratione ad minima. Dicta distinctio dolorum laudantium sunt. Officia iste excepturi ipsam ipsum architecto esse.
+                            Consequatur officia, numquam dolor aperiam minus recusandae, expedita reprehenderit sunt ullam error voluptates eius eaque beatae ad asperiores ipsum est illo quisquam consectetur hic harum ipsam, natus aliquam sequi. Dolore.
+                            Modi quae deserunt sequi quisquam! Quae ad accusantium iusto, laborum aut sapiente quia quibusdam voluptates eos praesentium dignissimos tempore. Nobis, perferendis assumenda? Quisquam dolorem deserunt harum suscipit amet neque dicta!</p>
+                        </div>
+                        <div class="profile__skills-container">
+                            <h2>Nuestras Skills</h2>
+                            <ul>
+                                <li class="profile__skill">
+                                    <div class="load-bar">
+                                        <div class="load-bar__bar bar--100">
+                                            100%
+                                        </div>
+                                    </div>
+                                    <span class="profile__skill-name">JAVA</span>
+                                </li>
+                                <li class="profile__skill">
+                                    <div class="load-bar">
+                                        <div class="load-bar__bar bar--80">
+                                            80%
+                                        </div>
+                                    </div>
+                                    <span class="profile__skill-name">HTML</span>
+                                </li>
+                                <li class="profile__skill">
+                                    <div class="load-bar">
+                                        <div class="load-bar__bar bar--80">
+                                            80%
+                                        </div>
+                                    </div>
+                                    <span class="profile__skill-name">CSS</span>
+                                </li>
+                                <li class="profile__skill">
+                                    <div class="load-bar">
+                                        <div class="load-bar__bar bar--60">
+                                            60%
+                                        </div>
+                                    </div>
+                                    <span class="profile__skill-name">SQL</span>
+                                </li>
+                                <li class="profile__skill">
+                                    <div class="load-bar">
+                                        <div class="load-bar__bar bar--60">
+                                            60%
+                                        </div>
+                                    </div>
+                                    <span class="profile__skill-name">PYTHON</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <section class="portfolio" id="portfolio">
+        <h2 class="portfolio__title">PORTFOLIO SECTION</h2>
+            <div class="portfolio__project-container">
+                <div class="portfolio__project">
+                    <h2 class="portfolio__project-name">PROJECT</h2>
+                </div>
+                <divs class="portfolio__project">
+                    <h2 class="portfolio__project-name">PROJECT</h2>
+                </divs>    
+                <div class="portfolio__project">
+                    <h2 class="portfolio__project-name">PROJECT</h2>
+                </div>
+                <div class="portfolio__project">
+                    <h2 class="portfolio__project-name">PROJECT</h2>
+                </div>
+                <div class="portfolio__project">
+                    <h2 class="portfolio__project-name">PROJECT</h2>
+                </div>
+            </div>
+    </section>
+
+    <section class="form" id="form">
+        <H2 class="form__title">CONTACT</H2>
+        <form action="" class="form__form">
+            <div class="form__input-container">
+                <label>Nombre
+                    <input type="text" placeholder="John">
+                </label>
+                <label>Apellido
+                    <input type="text" placeholder="Doe">
+                </label>
+                <label>Email
+                    <input type="text" placeholder="JohnDoe@email.com">
+                </label>
+                <label>Mensaje
+                    <textarea placeholder="Deje su menasaje aqui"></textarea>
+                </label>
+                <input type="submit" class="send">
+            </div>
+
+        </form>
+    </section>
+    <footer>Joaquin Ribarola - Copyright 2025</footer>
+</body>
+</html>
